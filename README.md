@@ -27,7 +27,7 @@
 
 * Contratos: Uma interface define um conjunto de métodos que uma classe deve implementar, estabelecendo um contrato.
 * Desacoplamento: Interfaces promovem o desacoplamento do código, permitindo que diferentes classes compartilhem comportamentos comuns sem estarem diretamente relacionadas por herança.
-* * Múltiplas Implementações: Uma classe pode implementar várias interfaces, superando a limitação de herança única.
+* Múltiplas Implementações: Uma classe pode implementar várias interfaces, superando a limitação de herança única.
 
 # Vantagens:
 
