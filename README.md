@@ -27,4 +27,4 @@
 * Desacoplamento: A lógica de emissão de som é desacoplada do tipo específico de objeto.
 * Reusabilidade: O método emitirSom() pode ser chamado em qualquer objeto que implemente a interface FazSom.
 * Polimorfismo de Interface: Permite que diferentes classes, sem relação direta de herança, compartilhem comportamentos comuns e sejam tratadas de maneira uniforme.
-* Com essa abordagem, demonstramos como o polimorfismo por herança e por interface pode ser aplicado em Java, destacando suas vantagens práticas e a importância de cada implementação no desenvolvimento de software modular e fácil de manter.
+
