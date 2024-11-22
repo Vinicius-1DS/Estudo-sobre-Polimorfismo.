@@ -1,4 +1,46 @@
-# Estudo Sobre Polimorfismo (Interface x Herança).
+# Estudo sobre polimorfismo (Herança x Interfaces).
+
+# Polimorfismo por Herança
+# Definição:
+
+* O polimorfismo por herança ocorre quando uma classe filha herda de uma classe pai e pode usar ou sobrescrever os métodos do pai.
+
+# Características:
+
+* Hierarquia: Cria uma relação hierárquica entre as classes.
+* Reutilização de Código: Facilita a reutilização de código ao permitir que subclasses utilizem ou modifiquem métodos e propriedades da superclasse.
+* Sobrescrita de Métodos: Subclasses podem sobrescrever métodos da superclasse para fornecer implementações específicas.
+
+# Vantagens:
+
+* Flexibilidade: Permite adicionar novos tipos de objetos (subclasses) sem modificar a lógica existente na superclasse.
+* Desacoplamento: Separa a lógica do método da implementação específica do objeto.
+* Reusabilidade: Métodos e propriedades comuns são definidos na superclasse e reutilizados pelas subclasses.
+* Manutenção: Mudanças na superclasse são propagadas automaticamente para as subclasses.
+
+# Polimorfismo por Interface
+# Definição:
+
+* O polimorfismo por interface ocorre quando uma classe implementa uma interface e define os métodos especificados por essa interface.
+
+# Características:
+
+* Contratos: Uma interface define um conjunto de métodos que uma classe deve implementar, estabelecendo um contrato.
+* Desacoplamento: Interfaces promovem o desacoplamento do código, permitindo que diferentes classes compartilhem comportamentos comuns sem estarem diretamente relacionadas por herança.
+* * Múltiplas Implementações: Uma classe pode implementar várias interfaces, superando a limitação de herança única.
+
+# Vantagens:
+
+* Abstração: Define o comportamento que uma classe deve ter sem especificar a implementação.
+* Flexibilidade: Permite que diferentes classes, não relacionadas por herança, compartilhem comportamentos comuns e sejam tratadas de maneira uniforme.
+* Reusabilidade: Métodos genéricos podem ser aplicados a qualquer classe que implemente a interface, independentemente de sua hierarquia.
+* Desacoplamento: Facilita a substituição e intercambiabilidade de implementações, promovendo um design mais modular e flexível.
+
+# Conclusões:
+
+O polimorfismo, seja por herança ou interfaces, é essencial para criar sistemas flexíveis, reutilizáveis e fáceis de manter. Ele permite que diferentes tipos de objetos sejam tratados de maneira uniforme, simplificando o design e a implementação de software modular e robusto. A escolha entre herança e interfaces depende do contexto e das necessidades específicas do projeto, mas ambos são fundamentais para a programação orientada a objetos.
+
+# Explicação sobre o código:
 
 # Polimorfismo por Herança
 # Descrição:
